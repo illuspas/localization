@@ -51,7 +51,7 @@ Node.js非常适合异步操作。 它非常快速且非常普遍（实际上整
 
 `node.d.plugin`模块接受`JSON`格式的配置。
 
-不幸的是，`JSON`文件不接受评论。 因此，描述它们的最佳方法是使用带有说明的markdown文本文件。
+不幸的是，`JSON`文件不接受注释。 因此，描述它们的最佳方法是使用带有说明的markdown文本文件。
 
 `JSON` has a very strict formatting. If you get errors from netdata at `/var/log/netdata/error.log` that a certain
 configuration file cannot be loaded, we suggest to verify it at [http://jsonlint.com/](http://jsonlint.com/).
