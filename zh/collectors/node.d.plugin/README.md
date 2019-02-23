@@ -53,9 +53,6 @@ Node.js非常适合异步操作。 它非常快速且非常普遍（实际上整
 
 不幸的是，`JSON`文件不接受注释。 因此，描述它们的最佳方法是使用带有说明的markdown文本文件。
 
-`JSON` has a very strict formatting. If you get errors from netdata at `/var/log/netdata/error.log` that a certain
-configuration file cannot be loaded, we suggest to verify it at [http://jsonlint.com/](http://jsonlint.com/).
-
 `JSON`格式非常严格。 如果你在`/var/log/netdata/error.log`中收到netdata发出错误，无法加载某个配置文件，我们建议在[http://jsonlint.com/](http://jsonlint.com/)上验证它）。
 
 此目录中的文件提供了用于配置每个`node.d.plugin`模块的可用示例。
